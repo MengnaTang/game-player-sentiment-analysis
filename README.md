@@ -161,7 +161,7 @@ Potential extensions include:
   
 ## References
 
-Dutta, S., Oksanen, J., Vakeva, J., Ahmed, S., Kirjonen, M., & Hämäläinen, P. (2026). Mining Player Experience Trends From Game Reviews Using Large Language Models. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)*. ACM. DOI: [10.1145/3772318.3790760](https://doi.org/10.1145/3772318.3790760)
+Supriya Dutta, Joel Oksanen, Jaakko Vakeva, Shamit Ahmed, Markus Kirjonen, and Perttu Hämäläinen, P. (2026). Mining Player Experience Trends From Game Reviews Using Large Language Models. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)*. ACM. DOI: [10.1145/3772318.3790760](https://doi.org/10.1145/3772318.3790760)
 
 ## License
 
