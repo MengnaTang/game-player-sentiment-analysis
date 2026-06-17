@@ -88,20 +88,16 @@ providing insights potentially useful for product and business decision-making.
 - Clash of Clans receives substantially more positive sentiment regarding support quality and developer trust.
 - Rise of Kingdoms receives more criticism related to progression and monetization systems.
 
-⸻
 
 ## Repository Structure
 - 1_scrape.ipynb — Scrape Google Play reviews
 - 2_cleaned.ipynb — Data cleaning and embedding generation
 - 3_analysis.ipynb — PXI analysis, blind-spot detection, and custom dimension discovery
 
-⸻
 
 ## Requirements
 - Python 3.12+
 - OpenAI API key
-
-⸻
 
 ## Installation
 
@@ -162,13 +158,10 @@ Potential extensions include:
 - Integration with business intelligence dashboards
 - Validation against behavioral gameplay data
 
-## Reference
+  
+## References
 
-Dutta, S. et al. (2026)
-
-Mining Player Experience Trends From Game Reviews Using Large Language Models
-
-CHI 2026
+Dutta, S., Oksanen, J., Vakeva, J., Ahmed, S., Kirjonen, M., & Hämäläinen, P. (2026). Mining Player Experience Trends From Game Reviews Using Large Language Models. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)*. ACM. DOI: [10.1145/3772318.3790760](https://doi.org/10.1145/3772318.3790760)
 
 ## License
 
