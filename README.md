@@ -12,7 +12,6 @@ This project explores three questions:
 2. What additional experience dimensions emerge beyond those covered by PXI?
 3. Can large-scale review analysis provide actionable competitive intelligence?
 
-⸻
 
 ## Methodology
 
