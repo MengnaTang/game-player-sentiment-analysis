@@ -2,15 +2,14 @@
 
 A research project that replicates and extends the methodology proposed in **“Mining Player Experience Trends From Game Reviews Using Large Language Models” (Dutta et al., CHI 2026)**.
 
-This project analyzes Google Play reviews of **Clash of Clans** and **Rise of Kingdoms** using LLM embeddings and the PXI (Player Experience Inventory) framework. Beyond replication, it investigates limitations of PXI in modern free-to-play mobile games and explores how player review mining can support competitive intelligence and product analysis.
+This project analyzes Google Play reviews of **Clash of Clans** and **Rise of Kingdoms** using LLM embeddings and the PXI (Player Experience Inventory) framework. Building on the original work, it examines how well PXI applies to modern free-to-play mobile games, and explores how player review mining can enrich competitive intelligence and product analysis.
 
-⸻
 
 ## Research Questions
 
 This project explores three questions:
-1. Can the PXI framework fully capture player concerns in modern F2P mobile games?
-2. What important experience dimensions are missed by PXI?
+1. To what extent does the PXI framework capture player concerns in modern F2P mobile games?
+2. What additional experience dimensions emerge beyond those covered by PXI?
 3. Can large-scale review analysis provide actionable competitive intelligence?
 
 ⸻
@@ -35,7 +34,15 @@ Google Play Reviews
 
 The implementation follows the CHI 2026 methodology while introducing additional analysis steps designed to identify player concerns that are not represented in the original PXI framework.
 
-⸻
+### Model Selection
+
+Three player experience questionnaires from the original paper were evaluated:
+- PXI
+- CORGIS
+- AESTHEMOS
+
+PXI showed the highest overall semantic alignment with Google Play reviews and was therefore selected as the primary framework for subsequent analysis.
+
 
 ## Main Contributions
 
@@ -47,8 +54,6 @@ Successfully reproduced the PXI-based review analysis pipeline on a new domain:
 
 demonstrating the transferability of the original approach to mobile strategy games.
 
-⸻
-
 ### 2. Blind Spot Detection
 
 During analysis, a large number of highly negative reviews received low similarity scores across all PXI dimensions.
@@ -56,8 +61,6 @@ During analysis, a large number of highly negative reviews received low similari
 These reviews revealed player concerns that were not adequately represented by the original PXI framework.
 
 A blind-spot detection procedure was developed to systematically identify such cases.
-
-⸻
 
 ### 3. Discovery of Additional Experience Dimensions
 
@@ -69,8 +72,6 @@ Through keyword extraction and manual review inspection, four recurring dimensio
 
 These dimensions appear particularly relevant in free-to-play ecosystems and are not explicitly captured by PXI.
 
-⸻
-
 ### 4. Competitive Intelligence Application
 
 The project demonstrates how review mining can be used to compare competing games and reveal differences in:
@@ -80,8 +81,6 @@ The project demonstrates how review mining can be used to compare competing game
 - User satisfaction
 
 providing insights potentially useful for product and business decision-making.
-
-⸻
 
 ## Key Findings
 - PXI does not fully capture monetization-related frustration.
