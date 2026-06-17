@@ -19,10 +19,10 @@ The analysis replicates and extends the methodology from the CHI 2026 paper "Min
 ```
 3.Set up your OpenAI API key:
     - Create a `.env` file in the project root with:
-    ```text
-    OPENAI_API_KEY=your_key_here
-    OPENAI_API_BASE=https://api.openai.com/v1
-    ```
+```text
+   OPENAI_API_KEY=your_key_here
+   OPENAI_API_BASE=https://api.openai.com/v1
+```
 # Usage
 Run the notebooks in order:
 - `1_scrape.ipynb` – scrapes Google Play reviews
