@@ -14,10 +14,24 @@ The analysis replicates and extends the methodology from the CHI 2026 paper "Min
   conda activate game_analysis
 ```
 2.Install dependencies:
-`pip install -r requirements.txt`
+```python
+   pip install -r requirements.txt
+```
 3.Set up your OpenAI API key:
     - Create a `.env` file in the project root with:
     ```text
     OPENAI_API_KEY=your_key_here
     OPENAI_API_BASE=https://api.openai.com/v1
     ```
+# Usage
+Run the notebooks in order:
+- `1_scrape.ipynb` – scrapes Google Play reviews
+- `2_cleaned.ipynb` – cleans data and generates embeddings
+- `3_analysis.ipynb` – performs all analysis and generates figures
+
+# Outputs
+- Figures and summary tables are saved under `results/`
+- Precomputed embeddings can be reused from `processed/` to skip API calls
+
+# License
+MIT
